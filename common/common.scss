@@ -1,0 +1,41 @@
+.d-header {
+	height: 34px;
+	margin-bottom: 0;
+	padding-top: 0;
+}
+
+header #site-text-logo {
+	line-height: 34px;
+}
+
+.d-header .contents {
+	margin: 0;
+}
+
+.d-header-icons .icon {
+	padding: 1px 4px;
+}
+
+.d-header-icons .icon:hover,
+.d-header-icons .icon {
+	border-color: transparent;
+}
+
+.drop-down-visible .d-header-icons .active .icon,
+.d-header-icons .icon,
+.d-header-icons .icon:hover {
+	border-top: none;
+}
+
+.d-header-icons .badge-notification {
+	top: 1px;
+}
+
+.d-header #site-logo {
+	max-height: 34px;
+}
+
+.d-header-icons img.avatar {
+	max-width: 30px;
+	max-height: 30px;
+}
