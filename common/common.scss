@@ -6,6 +6,7 @@
 
 header #site-text-logo {
 	line-height: 34px;
+	margin-top: 0;
 }
 
 .d-header .contents {
@@ -21,7 +22,7 @@ header #site-text-logo {
 	border-color: transparent;
 }
 
-.drop-down-visible .d-header-icons .active .icon,
+.drop-down-mode .d-header-icons .active .icon,
 .d-header-icons .icon,
 .d-header-icons .icon:hover {
 	border-top: none;
@@ -32,8 +33,8 @@ header #site-text-logo {
 }
 
 .d-header #site-logo {
-    max-height: 30px;
-    padding: 2px 0;
+	max-height: 30px;
+	padding: 2px 0;
 }
 
 .d-header-icons img.avatar {
@@ -42,13 +43,14 @@ header #site-text-logo {
 }
 
 #main-outlet {
-    padding-top: 60px;
+	padding-top: 60px;
 }
 
-.d-header .login-button, .d-header button.sign-up-button {
-    margin-top: 3px;
+.d-header .login-button,
+.d-header button.sign-up-button {
+	margin-top: 3px;
 }
 
 .d-header .title a {
-    display: block;
+	display: block;
 }
