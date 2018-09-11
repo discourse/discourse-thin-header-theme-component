@@ -1,5 +1,6 @@
 {
   "name": "Thin Header",
   "about_url": "https://meta.discourse.org/t/thin-header-theme-component/77220",
-  "license_url": "https://github.com/hnb-ku/discourse-thin-header-theme-component/blob/master/LICENSE"
+  "license_url": "https://github.com/hnb-ku/discourse-thin-header-theme-component/blob/master/LICENSE",
+  "component": true
 }
