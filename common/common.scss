@@ -35,6 +35,10 @@
   .header-buttons {
     margin-top: 0;
   }
+
+  .mobile-view & .title {
+    min-width: auto;
+  }
 }
 
 #main-outlet {
