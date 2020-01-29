@@ -1,56 +1,42 @@
 .d-header {
-  height: 34px;
+  height: 2.25em;
   margin-bottom: 0;
   padding-top: 0;
-}
 
-header #site-text-logo {
-  line-height: 34px;
-  margin-top: 0;
-}
+  .d-icon-home {
+    font-size: 2em;
+  }
 
-.d-header .contents {
-  margin: 0;
-}
+  #site-logo {
+    max-height: 1.85em;
+  }
 
-.d-header-icons .icon {
-  padding: 1px 4px;
-}
+  .icon img.avatar {
+    width: 2em;
+    height: 2em;
+  }
 
-.d-header-icons .icon:hover,
-.d-header-icons .icon {
-  border-color: transparent;
-}
+  .categories-wrapper,
+  .topic-header-participants,
+  .topic-header-extra .discourse-tags {
+    display: none;
+  }
 
-.drop-down-mode .d-header-icons .active .icon,
-.d-header-icons .icon,
-.d-header-icons .icon:hover {
-  border-top: none;
-}
+  .header-title {
+    margin: 0;
+    font-size: $font-up-1;
+  }
 
-.d-header-icons .badge-notification {
-  top: 1px;
-}
+  .badge-notification {
+    top: 5px;
+    font-size: $font-down-2;
+  }
 
-.d-header #site-logo {
-  max-height: 30px;
-  padding: 2px 0;
-}
-
-.d-header-icons img.avatar {
-  max-width: 30px;
-  max-height: 30px;
+  .header-buttons {
+    margin-top: 0;
+  }
 }
 
 #main-outlet {
-  padding-top: 60px;
-}
-
-.d-header .login-button,
-.d-header button.sign-up-button {
-  margin-top: 3px;
-}
-
-.d-header .title a {
-  display: block;
+  padding-top: 5em;
 }
