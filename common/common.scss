@@ -1,56 +1,56 @@
 .d-header {
-	height: 34px;
-	margin-bottom: 0;
-	padding-top: 0;
+  height: 34px;
+  margin-bottom: 0;
+  padding-top: 0;
 }
 
 header #site-text-logo {
-	line-height: 34px;
-	margin-top: 0;
+  line-height: 34px;
+  margin-top: 0;
 }
 
 .d-header .contents {
-	margin: 0;
+  margin: 0;
 }
 
 .d-header-icons .icon {
-	padding: 1px 4px;
+  padding: 1px 4px;
 }
 
 .d-header-icons .icon:hover,
 .d-header-icons .icon {
-	border-color: transparent;
+  border-color: transparent;
 }
 
 .drop-down-mode .d-header-icons .active .icon,
 .d-header-icons .icon,
 .d-header-icons .icon:hover {
-	border-top: none;
+  border-top: none;
 }
 
 .d-header-icons .badge-notification {
-	top: 1px;
+  top: 1px;
 }
 
 .d-header #site-logo {
-	max-height: 30px;
-	padding: 2px 0;
+  max-height: 30px;
+  padding: 2px 0;
 }
 
 .d-header-icons img.avatar {
-	max-width: 30px;
-	max-height: 30px;
+  max-width: 30px;
+  max-height: 30px;
 }
 
 #main-outlet {
-	padding-top: 60px;
+  padding-top: 60px;
 }
 
 .d-header .login-button,
 .d-header button.sign-up-button {
-	margin-top: 3px;
+  margin-top: 3px;
 }
 
 .d-header .title a {
-	display: block;
+  display: block;
 }
